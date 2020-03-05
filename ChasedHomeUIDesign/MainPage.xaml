@@ -9,11 +9,12 @@
     NavigationPage.HasNavigationBar="False"
     xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
     BackgroundColor="#791AE5"
+      Padding="0,40,0,0"
     mc:Ignorable="d">
     <ScrollView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-        <StackLayout Margin="0,50,0,0">
-            <StackLayout Orientation="Horizontal">
-                <StackLayout Margin="20,0,20,0" Spacing="20">
+        <StackLayout >
+            <StackLayout  Margin="0,0,0,0"  Orientation="Horizontal">
+                <StackLayout Margin="20,10,20,0" Spacing="20">
                     <Image
                     HeightRequest="30"
                     HorizontalOptions="Start"
@@ -30,7 +31,7 @@
                 <Image Source="bgImage1" WidthRequest="200" />
             </StackLayout>
             <yummy:PancakeView
-            Margin="0,30,0,0"
+            Margin="0,20,0,0"
             Padding="30,50,30,30"
             BackgroundColor="White"
             CornerRadius="40,40,0,0"
