@@ -17,5 +17,10 @@ namespace ChasedHomeUIDesign
         {
             InitializeComponent();
         }
+
+        void LoginClick(System.Object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new HomePage());
+        }
     }
 }
